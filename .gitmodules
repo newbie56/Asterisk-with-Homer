@@ -1,0 +1,3 @@
+[submodule "homer7-docker"]
+	path = homer7-docker
+	url = https://github.com/sipcapture/homer7-docker
