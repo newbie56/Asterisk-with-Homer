@@ -13,19 +13,16 @@
   If you are using Homer to capture call data, ensure the capture address points to the target server's IP and port in `/etc/asterisk/hep.conf`.  
   Example:  [general] capture_address = 10.8.0.159:9060
 
-![image](https://github.com/user-attachments/assets/2ac9f8a9-d184-4b9f-89e2-80e1d944b4f1)
+  ![image](https://github.com/user-attachments/assets/2ac9f8a9-d184-4b9f-89e2-80e1d944b4f1)
 
 ### **2. Configure SIP Clients**
-- Input the correct **username** and **password** in your SIP client settings as specified in the Asterisk configuration.
 
-user 7001
+| SIP User 7001                                                                 | SIP User 7002                                                                 |
+|-------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
+| Input the correct **username** and **password** in your SIP client settings.  | Input the correct **username** and **password** in your SIP client settings. |
+| ![image](https://github.com/user-attachments/assets/259d4f0c-8cda-46d9-a5be-a3762956a33d) | ![image](https://github.com/user-attachments/assets/f66a4124-58f7-4a87-bc7f-62213be76f59) |
 
-![image](https://github.com/user-attachments/assets/259d4f0c-8cda-46d9-a5be-a3762956a33d)
----
-user 7002
 
-![image](https://github.com/user-attachments/assets/f66a4124-58f7-4a87-bc7f-62213be76f59)
----
 
 ### **3. Start Asterisk**
 - Use the following command to start Asterisk:
