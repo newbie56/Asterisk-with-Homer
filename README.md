@@ -14,13 +14,15 @@
   Example:  
 [general]
 capture_address = 10.8.0.159:9060
+
 ![image](https://github.com/user-attachments/assets/2ac9f8a9-d184-4b9f-89e2-80e1d944b4f1)
 
 ### **2. Configure SIP Clients**
 - Input the correct **username** and **password** in your SIP client settings as specified in the Asterisk configuration.
+
 user 7001
 ![image](https://github.com/user-attachments/assets/259d4f0c-8cda-46d9-a5be-a3762956a33d)
-
+---
 user 7002
 ![image](https://github.com/user-attachments/assets/f66a4124-58f7-4a87-bc7f-62213be76f59)
 ---
