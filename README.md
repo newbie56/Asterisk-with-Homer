@@ -43,6 +43,7 @@ module load func_channel.so
 
 ### ▶️**Access Monitoring Tools**
 Once the call is initiated, you can view monitoring details.
+
 ![Screenshot 2024-11-25 154344](https://github.com/user-attachments/assets/6e8e1e85-f6a2-47d7-970a-30d1254299bb)
 
 a. Homer
