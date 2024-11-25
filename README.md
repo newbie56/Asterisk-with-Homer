@@ -1,8 +1,8 @@
-# **Call Monitoring using Homer**
+# 📞**Call Monitoring using Homer**
 
-## **Configure Asterisk Server and SIP Clients**
+## 🔧**Configure Asterisk Server and SIP Clients**
 
-### **1. Configure Users and Dialplan**
+### ⚙️**1. Configure Users and Dialplan**
 - **Edit PJSIP Users**  
   Update the configuration for SIP users in `/etc/asterisk/pjsip.conf`.
 
@@ -15,7 +15,7 @@
 
   ![image](https://github.com/user-attachments/assets/2ac9f8a9-d184-4b9f-89e2-80e1d944b4f1)
 
-### **2. Configure SIP Clients**
+### 🔗**2. Configure SIP Clients**
 
 | SIP User 7001                                                                 | SIP User 7002                                                                 |
 |-------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
@@ -24,7 +24,7 @@
 
 
 
-### **3. Start Asterisk**
+### ▶️**3. Start Asterisk**
 - Use the following command to start Asterisk:
 ```bash
 asterisk -cvvvvv
@@ -41,15 +41,17 @@ module load res_hep_rtcp.so
 module load func_channel.so
 ```
 
-### **3. Access Monitoring Tools**
+### ▶️**4. Access Monitoring Tools**
 Once the call is initiated, you can view monitoring details.
 ![Screenshot 2024-11-25 154344](https://github.com/user-attachments/assets/6e8e1e85-f6a2-47d7-970a-30d1254299bb)
 
 a. Homer
 - Homer provides detailed call analytics and packet capture data.
+  
 ![Screenshot 2024-11-25 154506](https://github.com/user-attachments/assets/ee822d65-b394-4158-b4fe-b2b57c6a18e0)
 
 b. Grafana
 - Grafana can be configured to visualize call metrics.
+  
 ![Screenshot 2024-11-25 154717](https://github.com/user-attachments/assets/21252ac7-7918-4496-9a54-bbfe033e2dd1)
 
