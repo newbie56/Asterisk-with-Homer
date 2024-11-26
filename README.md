@@ -33,12 +33,16 @@ asterisk -cvvvvv
 ```bash
 asterisk -r
 ```
-Ensure the necessary modules are loaded for HEP to function properly:
+- Ensure the necessary modules are loaded for HEP to function properly:
 ```bash
 module load res_hep.so
 module load res_hep_pjsip.so
 module load res_hep_rtcp.so
 module load func_channel.so
+```
+- Reload Asterisk after making any changes
+```bash
+core reload
 ```
 
 ### ▶️**Access Monitoring Tools**
@@ -48,13 +52,13 @@ Once the call is initiated, you can view monitoring details.
 
 a. Homer
 - Homer provides detailed call analytics and packet capture data.
-- Access at 'server ip:9080'
+- Access at 'server-ip:9080'
   
 ![Screenshot 2024-11-25 154506](https://github.com/user-attachments/assets/ee822d65-b394-4158-b4fe-b2b57c6a18e0)
 
 b. Grafana
 - Grafana can be configured to visualize call metrics.
-- Access at 'server ip:9030'
+- Access at 'server-ip:9030'
   
 ![Screenshot 2024-11-25 154717](https://github.com/user-attachments/assets/21252ac7-7918-4496-9a54-bbfe033e2dd1)
 
